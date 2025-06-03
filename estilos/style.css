@@ -56,3 +56,13 @@ section#login>div#formulario>h1{
 div#formulario>p{
     font-size: 0.8em;
 }
+.campo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaçamento entre os elementos */
+}
+
+.campo label {
+    margin: 0; /* Remove margens extras */
+    display: inline-block;
+}
