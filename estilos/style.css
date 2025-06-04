@@ -56,13 +56,34 @@ section#login>div#formulario>h1{
 div#formulario>p{
     font-size: 0.8em;
 }
-.campo {
-    display: flex;
-    align-items: center;
-    gap: 8px; /* Espaçamento entre os elementos */
+input#entrar  {
+    width: 100%;
+    height: 30px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-.campo label {
-    margin: 0; /* Remove margens extras */
-    display: inline-block;
+p>a.botao{
+    display: block;
+    text-decoration: none;
+    color: #5f2c82;
+    font-size: 0.8em;
+    text-align: center;
+}
+input#entrar:hover {
+    background-color: #3a7f7a;
+}
+p>a.botao:hover{
+    color: #183533;
+}
+div.campo{
+   background-color: #5f2c82;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+div.campo>label{
+    display: none;
 }
