@@ -87,3 +87,13 @@ div.campo{
 div.campo>label{
     display: none;
 }
+div.campo>input{
+}
+    width: 90%;
+    height: 10px;
+    
+    border-radius: 10px;
+    padding: 5px;
+    color;: #5f2c82;
+    background-color: transparent;
+}
